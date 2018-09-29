@@ -24,3 +24,13 @@ hobbies = ["100"];
 
 // tuples
 let address: [string, number] = ["Super street", 99];
+
+// enums
+enum Color {
+	Grey, // 0
+	Green = 100, // 100
+	Blue // 101
+}
+
+let myColor: Color = Color.Blue;
+// console.log(myColor);
