@@ -79,3 +79,20 @@ userData = {
 	name: "hello",
 	age: 22,
 };
+
+type Complex = {data: number[], output: (all: boolean) => number[]};
+
+let complex: Complex = {
+	data: [1, 2, 3],
+	output: function(all: boolean): number[] {
+		return this.data
+	}
+}
+
+let complex2: Complex = {
+	data: [1, 2, 3],
+	output: function(all: boolean): number[] {
+		return this.data
+	}
+}
+
