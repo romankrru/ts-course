@@ -39,3 +39,22 @@ let car: any = "BMW";
 // console.log(car);
 car = {brand: "BMW", series: 3};
 // console.log(car);
+
+// functions
+function returnMyName(): string {
+	return myName;
+}
+// console.log(returnMyName())
+
+function sayHello(): void {
+	console.log("hello");
+	// return myName;
+}
+
+// argument types
+function mul(v1: number, v2: number): number {
+	return v1 * v2;
+}
+// console.log(mul(1, 2))
+
+

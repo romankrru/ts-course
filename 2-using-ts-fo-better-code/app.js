@@ -25,7 +25,25 @@ var Color;
 (function (Color) {
     Color[Color["Grey"] = 0] = "Grey";
     Color[Color["Green"] = 100] = "Green";
-    Color[Color["Blue"] = 101] = "Blue"; // 2
+    Color[Color["Blue"] = 101] = "Blue"; // 101
 })(Color || (Color = {}));
 var myColor = Color.Blue;
-console.log(myColor);
+// console.log(myColor);
+var car = "BMW";
+// console.log(car);
+car = { brand: "BMW", series: 3 };
+// console.log(car);
+// functions
+function returnMyName() {
+    return myName;
+}
+// console.log(returnMyName())
+function sayHello() {
+    console.log("hello");
+    // return myName;
+}
+// argument types
+function mul(v1, v2) {
+    return v1 * v2;
+}
+console.log(mul(1, "str"));
