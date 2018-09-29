@@ -63,3 +63,19 @@ let myMul: (a: number, b: number) => number;
 // myMul();
 myMul = mul;
 myMul(1, 2);
+
+// objects
+let userData: {name: string, age: number} = {
+	name: 'John',
+	age: 20,
+};
+
+// userData = {
+// 	a: "hello",
+// 	b: 22,
+// };
+
+userData = {
+	name: "hello",
+	age: 22,
+};
