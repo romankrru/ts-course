@@ -107,3 +107,8 @@ let finalValue = 1;
 if (typeof finalValue == 'number') {
 	// console.log('Final value is number')
 }
+
+// never type
+function neverReturns(): never {
+	throw new Error('Error');
+}
