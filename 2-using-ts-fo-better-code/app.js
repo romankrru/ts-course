@@ -11,4 +11,8 @@ var hasHobbies = true;
 // assign types
 var myRealAge;
 myRealAge = 27;
-myRealAge = '27';
+// myRealAge = '27';
+// array
+var hobbies = ["Cooking", "Sports"];
+console.log(hobbies[0]);
+console.log(typeof hobbies);

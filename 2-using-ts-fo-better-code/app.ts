@@ -13,4 +13,11 @@ let hasHobbies: boolean = true;
 // assign types
 let myRealAge: number;
 myRealAge = 27;
-myRealAge = '27';
+// myRealAge = '27';
+
+// array
+let hobbies = ["Cooking", "Sports"];
+// hobbies = [100];
+hobbies = ["100"];
+// console.log(hobbies[0]);
+// console.log(typeof hobbies)
