@@ -21,3 +21,6 @@ let hobbies = ["Cooking", "Sports"];
 hobbies = ["100"];
 // console.log(hobbies[0]);
 // console.log(typeof hobbies)
+
+// tuples
+let address: [string, number] = ["Super street", 99];
