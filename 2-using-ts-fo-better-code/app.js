@@ -49,7 +49,41 @@ function mul(v1, v2) {
 // console.log(mul(1, 2))
 // function types
 var myMul;
-myMul = sayHello;
-myMul();
+// myMul = sayHello;
+// myMul();
 myMul = mul;
 myMul(1, 2);
+// objects
+var userData = {
+    name: 'John',
+    age: 20,
+};
+// userData = {
+// 	a: "hello",
+// 	b: 22,
+// };
+userData = {
+    name: "hello",
+    age: 22,
+};
+var complex = {
+    data: [1, 2, 3],
+    output: function (all) {
+        return this.data;
+    }
+};
+var complex2 = {
+    data: [1, 2, 3],
+    output: function (all) {
+        return this.data;
+    }
+};
+// union types
+var myRealRealAge;
+myRealRealAge = 21;
+myRealRealAge = '21';
+// check types
+var finalValue = 1;
+if (typeof finalValue == 'number') {
+    console.log('Final value is number');
+}
