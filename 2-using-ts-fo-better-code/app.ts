@@ -57,4 +57,9 @@ function mul(v1: number, v2: number): number {
 }
 // console.log(mul(1, 2))
 
-
+// function types
+let myMul: (a: number, b: number) => number;
+// myMul = sayHello;
+// myMul();
+myMul = mul;
+myMul(1, 2);

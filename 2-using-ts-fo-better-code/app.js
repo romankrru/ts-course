@@ -46,4 +46,10 @@ function sayHello() {
 function mul(v1, v2) {
     return v1 * v2;
 }
-console.log(mul(1, "str"));
+// console.log(mul(1, 2))
+// function types
+var myMul;
+myMul = sayHello;
+myMul();
+myMul = mul;
+myMul(1, 2);
