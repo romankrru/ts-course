@@ -27,3 +27,16 @@ console.log(multiplyNumbers(2, 4))
 
 // arrow functions variations
 const greet = () => console.log('Hello');
+
+// default parameters
+// ...
+
+// spread operator
+
+// rest operator
+
+// destructuring
+
+// template literals
+
+// other features

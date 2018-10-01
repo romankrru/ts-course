@@ -23,3 +23,10 @@ var multiplyNumbers = function (number1, number2) { return number1 * number2; };
 console.log(multiplyNumbers(2, 4));
 // arrow functions variations
 var greet = function () { return console.log('Hello'); };
+// default parameters
+// ...
+// spread operator
+// rest operator
+// destructuring
+// template literals
+// other features
