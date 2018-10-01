@@ -14,3 +14,10 @@ function reset() {
 }
 reset();
 console.log(variable);
+// arrow functions
+var addNumbers = function (number1, number2) {
+    return number1 + number2;
+};
+console.log(addNumbers(2, 3));
+var multiplyNumbers = function (number1, number2) { return number1 * number2; };
+console.log(multiplyNumbers(2, 4));
