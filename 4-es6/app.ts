@@ -24,3 +24,6 @@ console.log(addNumbers(2, 3))
 
 const multiplyNumbers = (number1: number, number2: number) => number1 * number2;
 console.log(multiplyNumbers(2, 4))
+
+// arrow functions variations
+const greet = () => console.log('Hello');

@@ -21,3 +21,5 @@ var addNumbers = function (number1, number2) {
 console.log(addNumbers(2, 3));
 var multiplyNumbers = function (number1, number2) { return number1 * number2; };
 console.log(multiplyNumbers(2, 4));
+// arrow functions variations
+var greet = function () { return console.log('Hello'); };
