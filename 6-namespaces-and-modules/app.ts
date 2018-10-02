@@ -1,7 +1,6 @@
-/// <reference path="circleMath.ts" />
-/// <reference path="rectangleMath.ts" />
+import {calculateCircumference, PI} from './math/circle';
+import calculateRectangle from './math/rectangle';
 
-import CircleMath = MyMath.circle;
-
-console.log(CircleMath.calculateCircumference(23));
-console.log(MyMath.calculateRectangle(10, 20));
+console.log(PI);
+console.log(calculateCircumference(23));
+console.log(calculateRectangle(11, 23));

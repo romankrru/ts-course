@@ -7,6 +7,15 @@
 	<title>Document</title>
 </head>
 <body>
-	<script src="./app.js"></script>
+	<script src="node_modules/systemjs/dist/system.js"></script>
+	<script>
+		SystemJS.config({
+			baseURL: '/',
+			defaultJSExtensions: true
+		});
+
+		SystemJS.import('./app.js');
+	</script>
+	<!-- <script src="./app.js"></script> -->
 </body>
 </html>
