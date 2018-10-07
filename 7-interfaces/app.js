@@ -9,5 +9,5 @@ var person = {
     firstName: "Max",
     age: 27,
 };
-greet(person);
+greet({ firstName: "Max", age: 27, hobbies: ["Sports"] });
 changeName(person);
