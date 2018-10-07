@@ -32,3 +32,8 @@ myDoubleFunction = function (n1, n2) {
     return (n1 + n2) * 2;
 };
 console.log(myDoubleFunction(1, 3));
+var oldPerson = {
+    age: 27,
+    firstName: "Max",
+    greet: function () { },
+};
