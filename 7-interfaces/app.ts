@@ -24,3 +24,18 @@ const person: NamedPerson = {
 // greet({firstName: "Max", age: 27, hobbies: ["Sports"]})
 changeName(person)
 person.greet("Anything")
+
+class Person implements NamedPerson {
+	lastName: string;
+
+	greet(lastName: string) {
+		console.log(this.firstName + lastName);
+	}
+
+	constructor(public firstName: string) {
+		this.lastName = "tests"
+	}
+}
+
+const myPeson = new Person("max");
+myPeson.greet("test")
