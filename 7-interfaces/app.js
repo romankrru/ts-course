@@ -8,6 +8,10 @@ function changeName(person) {
 var person = {
     firstName: "Max",
     age: 27,
+    greet: function (lastName) {
+        console.log(this.firstName + lastName);
+    }
 };
-greet({ firstName: "Max", age: 27, hobbies: ["Sports"] });
+// greet({firstName: "Max", age: 27, hobbies: ["Sports"]})
 changeName(person);
+person.greet("Anything");
