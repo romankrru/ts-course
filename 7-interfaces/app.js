@@ -27,3 +27,8 @@ var Person = /** @class */ (function () {
 }());
 var myPeson = new Person("max");
 myPeson.greet("test");
+var myDoubleFunction;
+myDoubleFunction = function (n1, n2) {
+    return (n1 + n2) * 2;
+};
+console.log(myDoubleFunction(1, 3));

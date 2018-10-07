@@ -39,3 +39,17 @@ class Person implements NamedPerson {
 
 const myPeson = new Person("max");
 myPeson.greet("test")
+
+
+// Function types
+
+interface DoubleValueFunc {
+	(number1: number, number2: number): number
+}
+
+let myDoubleFunction: DoubleValueFunc;
+myDoubleFunction = function(n1, n2) {
+	return (n1 + n2) * 2
+}
+
+console.log(myDoubleFunction(1, 3))
