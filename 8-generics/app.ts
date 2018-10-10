@@ -32,3 +32,19 @@ printAll<string>(["apples", "banana"]);
 
 // Using generic types
 const echo2: <T>(data: T) => T = betterEcho;
+
+
+// Generic classes
+// class SimpleMath<T extends U, U extends number | string> {
+// 	baseValue: T;
+// 	multiplyValue: U;
+
+// 	caclucalte(): number {
+// 		return +this.baseValue * +this.multiplyValue;
+// 	}
+// }
+
+// const simpleMath = new SimpleMath<string, string>();
+// simpleMath.baseValue = '10';
+// simpleMath.multiplyValue = '32';
+// console.log(simpleMath.caclucalte());
