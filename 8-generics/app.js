@@ -17,3 +17,11 @@ console.log(betterEcho({ name: "Max", age: 27 }).name);
 var testResult = [1.93, 2.33];
 testResult.push(1);
 // testResult.push('str');
+// Arrays
+function printAll(args) {
+    args.forEach(function (el) { return console.log(el); });
+}
+printAll(["apples", "banana"]);
+// printAll(1);
+// Using generic types
+var echo2 = betterEcho;

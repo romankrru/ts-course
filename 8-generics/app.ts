@@ -16,8 +16,19 @@ console.log(betterEcho("Max").length)
 console.log(betterEcho<number>(27))
 console.log(betterEcho({name: "Max", age: 27}).name)
 
-
 // Buil in generic
 const testResult: Array<number> = [1.93, 2.33];
 testResult.push(1);
 // testResult.push('str');
+
+// Arrays
+function printAll<T>(args: T[]) {
+	args.forEach(el => console.log(el));
+}
+
+printAll<string>(["apples", "banana"]);
+// printAll(1);
+
+
+// Using generic types
+const echo2: <T>(data: T) => T = betterEcho;
